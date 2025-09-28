@@ -52,3 +52,37 @@ console.log(Object.entries(tinderUser));
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+//*********Destructuree************/
+
+const course = {
+    coursename: "This is a course",
+    price: "999",
+    courseInstructor:"Samira"
+}
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+// const navbar = ({company}) => {
+
+
+// }                                    //react
+
+// navbar(campany = "samira")
+
+// {
+//     "name": "samira",
+//   "  coursename ": "CouseName",
+//     "price": "$10"
+// }
+
+
+[
+    {},
+    {},
+    {}  // random user me API
+]
