@@ -6,6 +6,5 @@
 (function Two(){
     console.log(`DB Connected Two`);
     
-})()
-
+})
 
